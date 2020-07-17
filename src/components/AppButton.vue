@@ -1,7 +1,8 @@
  <template>
     <v-btn
-        color="primary"
-        :height="40"
+        :color="color"
+        :height="height"
+        :width="width"
         @click="onSubmit"
     >
         {{title}}
@@ -14,6 +15,22 @@ export default {
     props: {
         title: {
             type: String
+        },
+        color: {
+            type: String,
+            default: ''
+        },
+        height: {
+            type: Number,
+            default: 40
+        },
+        width: {
+            type: Number,
+            default: 100
+        },
+        type: {
+            type: String,
+            default: 'add'
         }
     },
 	data: () => ({
@@ -21,14 +38,14 @@ export default {
     }),
     methods: {
         onSubmit() {
-            this.$emit("submit");
+            this.$emit("submit");   
         }
     }
 }
 </script>
 
 <style lang="scss" scoped>
-    button {
-        width: 200px;
-    }
+    // button {
+    //     width: 200px;
+    // }
 </style>
