@@ -1,0 +1,38 @@
+.todo-header {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .v-input {
+        width: 100%;
+        font-size: 16px;
+    }
+    .top-button-container {
+        display: flex;
+        .update-cancel-btn {
+            margin-left: 10px;
+        }
+    }
+}
+.v-tabs {
+    margin-top: 100px;
+}
+.v-list {
+    .todo-title-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .v-list-item {
+        cursor: pointer;
+        .v-list-item__title {
+            p {
+                display: inline-block;
+            }
+        }
+        .v-list-item__subtitle {
+            .update-button {
+                margin-left: 20px;
+            }	
+        }
+    }
+}
