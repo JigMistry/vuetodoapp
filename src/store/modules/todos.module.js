@@ -9,17 +9,7 @@ const state = {
             id: new Date().getTime()+"2",
             title: 'To Do 2',
             isCompleted: true
-        },
-        {
-            id: new Date().getTime()+"3",
-            title: 'To Do 3',
-            isCompleted: true
-        },
-        {
-            id: new Date().getTime()+"4",
-            title: 'To Do 4',
-            isCompleted: false
-        }  
+        } 
     ]
 };
 

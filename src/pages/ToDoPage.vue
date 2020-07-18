@@ -195,6 +195,9 @@ export default {
 				toBeDeleteToDo: this.toBeDeleteToDo
 			});
 			this.toBeDeleteToDo = null;
+			// If during update , remove the todo
+			this.toBeUpdateToDo = null;
+			this.todoTitle = "";
 		},
 		handleSorted(event) {
 			console.log("old , new index", event.oldIndex, event.newIndex);
