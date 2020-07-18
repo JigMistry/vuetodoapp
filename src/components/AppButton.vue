@@ -27,10 +27,6 @@ export default {
         width: {
             type: Number,
             default: 100
-        },
-        type: {
-            type: String,
-            default: 'add'
         }
     },
 	data: () => ({

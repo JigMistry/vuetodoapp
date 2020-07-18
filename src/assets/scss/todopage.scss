@@ -24,9 +24,11 @@
     }
     .v-list-item {
         cursor: pointer;
+        border-bottom: 1px solid #E4E4E4;
         .v-list-item__title {
             p {
                 display: inline-block;
+                font-weight: 600;
             }
         }
         .v-list-item__subtitle {

@@ -18,20 +18,15 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld';
-
 export default {
-  name: 'App',
-
-  components: {
-    // HelloWorld,
-  },
-
-  data: () => ({
-    //
-  }),
+	name: 'App',
+	components: {},
+	data: () => ({
+	//
+	}),
 };
 </script>
+
 <style lang="scss">
 header {
 	.v-toolbar__content {
