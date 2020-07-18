@@ -1,5 +1,9 @@
 # VUE TO DO MANAGEMENT APP
 
+### To Run The App
+* `npm i`
+* `npm run serve` , App will be open at specific port
+
 ### Features Implemented
 * Can Add new To Do  in the list
 * Can Update any To Do Title
